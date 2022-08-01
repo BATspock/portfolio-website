@@ -34,7 +34,7 @@ const About = () => {
 },
 {
   title: 'March 2021 - June 2021',
-  cardTitle: 'Consulting Engineer II, Bangalore India',
+  cardTitle: 'Consulting Engineer II, Bangalore, India',
   url: 'https://www.cisco.com/c/en_in/index.html', 
   media: {
     source: {
@@ -190,7 +190,7 @@ const About = () => {
       <h2 className="head-text">My Timeline</h2>
       <div className="app__skills-container"> 
       {/* style={{ width: '500px', height: '950px' }}> */}
-        <Chrono items={items} mode="VERTICAL_ALTERNATING" />
+        <Chrono items={items} mode="VERTICAL_ALTERNATING" hideControls='true' />
       </div>
 
     </>
