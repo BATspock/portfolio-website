@@ -142,15 +142,18 @@ const About = () => {
       <div className="app__skills-container">
 
         <div>
-        <Card>
+        <Card>       
+          <div className="imageincard">
+
           <Card.Img variant="top" src="https://16mhpx3atvadrnpip2kwi9or-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/Main-USC-Viterbi-Logo-480x160-1.png" />
+          </div>
             <Card.Body>
               <Card.Text>
                 <h3>Graduate Student</h3>
                 <h4>January 2022 - Present</h4>
                 <h4>Los Angeles, California, USA</h4>
                 <div clas='cardtext'>
-                Currently pursuing a Master in Computer Science with a specialization in Aritifcial Intelligence from University of Southern Califronia, Viterbi College of Engineering. Relevant course work includes Analysis of Algorithms, 
+                Currently pursuing a Master in Computer Science with a specialization in Aritifcial Intelligence from University of Southern Califronia, Viterbi School of Engineering. Relevant course work includes Analysis of Algorithms, 
                 Introduction to Artificial Intelligence, Machine Learning, Mathematics of High Dimensional Data, Natural Language Processing, Computer Vision and Deep Learning.
                 </div>
 
@@ -163,7 +166,10 @@ const About = () => {
       <div className="app__skills-container">
         <div>
         <Card>
+          <div className="imageincard">
+
           <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/en/d/d2/R.V._College_of_Engineering_logo.png" />
+          </div>
             <Card.Body>
               <Card.Text>
                 <h3>Undergraduate Degree in Computer Science and Engineering </h3>
@@ -180,8 +186,8 @@ const About = () => {
         </div>
 
       </div>
-
-
+      <br></br>
+      <h2 className="head-text">My Timeline</h2>
       <div className="app__skills-container"> 
       {/* style={{ width: '500px', height: '950px' }}> */}
         <Chrono items={items} mode="VERTICAL_ALTERNATING" />
