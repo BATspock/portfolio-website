@@ -37,6 +37,7 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import resumeML from '../assets/data/Aditya Kishore Resume ML USC.pdf';
 import resumeSDE from '../assets/data/Aditya Kishore Resume SDE USC.pdf';
+import resume from '../assets/data/Aditya Kishore Resume.pdf';
 export default {
   email,
   mobile,
@@ -73,5 +74,6 @@ export default {
   skype,
   spotify,
   resumeML,
-  resumeSDE
+  resumeSDE,
+  resume
 };
