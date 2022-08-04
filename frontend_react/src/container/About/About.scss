@@ -52,5 +52,16 @@ h3{
 
 img.card-img-top{
   // background-color: red;
-  width: 20rem;
+  min-width: 8rem;
+  max-width: 15rem;
+}
+
+.app__skills_container{
+  Chrono {
+    min-height: 100px;
+  }
+}
+
+Chrono.div{
+  background-color: red;
 }

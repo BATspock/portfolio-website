@@ -96,7 +96,8 @@ const About = () => {
   media:{
     type:'IMAGE', 
     source:{
-      url: 'https://financialit.net/sites/default/files/a4_ugam_merkle_logo-01.jpg',
+      // url: 'https://financialit.net/sites/default/files/a4_ugam_merkle_logo-01.jpg',
+      url: 'https://th.bing.com/th/id/R.366be3216fca32c7b9b5711ab21a9c33?rik=Qyk99ZhGRy4yaw&riu=http%3a%2f%2fphotos.prnewswire.com%2fprnfull%2f20140428%2f81412&ehk=UmGhnTA0fTagwb0WJFlKu4AiLw9viN8vHVSXbQLn9GI%3d&risl=&pid=ImgRaw&r=0',
     },
   },
   // cardSubtitle: `The American aircraft carrier USS Yorktown under Japanese attack during the battle of Midway`,
@@ -112,6 +113,7 @@ const About = () => {
     source: {
       url:
         'https://www.pitneybowes.com/content/dam/pitneybowes/us/en/100/pitney-bowes-100-logo/pb_100_year_wordmark_horizontal_lockup_color.png',
+        // 'https://www.hopinto.co.uk/media/1277/logo.jpg',
     },
   },
   cardDetailedText: `
@@ -149,9 +151,13 @@ const About = () => {
           </div>
             <Card.Body>
               <Card.Text>
+              <br></br>
                 <h3>Graduate Student</h3>
+                <br></br>
                 <h4>January 2022 - Present</h4>
+                <br></br>
                 <h4>Los Angeles, California, USA</h4>
+                <br></br>
                 <div clas='cardtext'>
                 Currently pursuing a Master in Computer Science with a specialization in Aritifcial Intelligence from University of Southern Califronia, Viterbi School of Engineering. Relevant course work includes Analysis of Algorithms, 
                 Introduction to Artificial Intelligence, Machine Learning, Mathematics of High Dimensional Data, Natural Language Processing, Computer Vision and Deep Learning.
@@ -172,9 +178,13 @@ const About = () => {
           </div>
             <Card.Body>
               <Card.Text>
+                <br></br>
                 <h3>Undergraduate Degree in Computer Science and Engineering </h3>
+                <br></br>
                 <h4>August 2015 - July 2019</h4>
+                <br></br>
                 <h4>Bangalore, Karnataka, India</h4>
+                <br></br>
                 <div class='cardtext'>
                 Completed my Bachelor of Engineering degree in Computer Science and Engineering, from R.V. College of Engineering, India. I was an active student member, Image Processing lead and Team Captain of Autonomous Unmanned Aerial Vehicle
                 Club of R.V. College of Engineering - Project Jatayu, 2018. 
@@ -190,7 +200,7 @@ const About = () => {
       <h2 className="head-text">My Timeline</h2>
       <div className="app__skills-container"> 
       {/* style={{ width: '500px', height: '950px' }}> */}
-        <Chrono items={items} mode="VERTICAL_ALTERNATING" hideControls='true' />
+        <Chrono items={items} mode="VERTICAL" hideControls='true' />
       </div>
 
     </>
