@@ -15,7 +15,7 @@ const About = () => {
 
   const items = [  
 {
-  title: 'October 2021 - Novemeber 2021',
+  title: 'OCT 2021-NOV 2021',
   cardTitle: 'Software Engineering Consultant, Bangalore, India',
   url: 'http://visionempowertrust.in/',
   media:{
@@ -33,7 +33,7 @@ const About = () => {
   `,
 },
 {
-  title: 'March 2021 - June 2021',
+  title: 'MAR 2021-JUN 2021',
   cardTitle: 'Consulting Engineer II, Bangalore, India',
   url: 'https://www.cisco.com/c/en_in/index.html', 
   media: {
@@ -50,7 +50,7 @@ const About = () => {
   ▪ Developed the code in python and deployed using dockers on global Cisco internal test servers. Tool resolved more than 70% of bugs and decreased bug processing time by 80%`,
 },
 {
-  title: 'July 2019 - February 2021',
+  title: 'JUL 2019-FEB 2021',
   cardTitle: 'Consulting Engineer, Bangalore, India',
   url: 'https://www.cisco.com/c/en_in/index.html',
   cardSubtitle: `Cisco Systems, Inc.`,
@@ -71,7 +71,7 @@ const About = () => {
 },
 
 {
-  title: 'January 2019 - May 2019',
+  title: 'JAN 2019-MAY 2019',
   cardTitle: 'Reserach Intern, Bangalore, India',
   url: 'https://www.iiitb.ac.in/',
   cardSubtitle: 'International Institute of Information Technology, Bangalore (IIITB)', 
@@ -89,7 +89,7 @@ const About = () => {
   ▪ Published a paper based on the texture based image segmentation algorithm devised during the research work in the International Journal of Engineering and Future Technology`,
 },
 {
-  title: 'May 2018 - July 2018',
+  title: 'MAY 2018-JUL 2018',
   cardTitle: 'Consultant, Bangalore, India',
   url: 'https://www.ugamsolutions.com/',
   cardSubtitle: 'Ugam Analytics',
@@ -104,7 +104,7 @@ const About = () => {
   cardDetailedText: `▪ Developed full stack web app with OpenCV-based backend for SKU detection, worked with Siamese Long Short Term Memory (LSTM) for semantic text comparison`,
 },
 {
-  title: 'June 2017 - July 2017',
+  title: 'JUN 2017-JUL 2017',
   cardTitle: 'Research Intern, Noida, India',
   url: 'https://www.pitneybowes.com/us',
   cardSubtitle: `Pitney Bowes`,
