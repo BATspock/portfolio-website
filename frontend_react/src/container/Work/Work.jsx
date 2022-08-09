@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 import { motion } from 'framer-motion';
-
+// import Stack from '@mui/material/Stack'
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
 import './Work.scss';
+// import { IconBase } from 'react-icons/lib';
+// import { IconButton } from '@mui/material';
 
 const Work = () => {
   const [works, setWorks] = useState([]);
@@ -38,10 +40,10 @@ const Work = () => {
 
   return (
     <>
-      <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
+      <h2 className="head-text">My<span> Projects</span></h2>
 
       <div className="app__work-filter">
-        {['Algorithm Development', 'Computer Vision', 'Natural Language Processing', 'Artificial Intelligence', 'Web Development', 'Networking','All'].map((item, index) => (
+        {['Algorithm Development', 'Computer Vision', 'Natural Language Processing', 'Artificial Intelligence', 'Web Development', 'Networking','Publication','All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -65,7 +67,7 @@ const Work = () => {
               <img src={urlFor(work.imgUrl)} alt={work.name} />
 
               <motion.div
-                whileHover={{ opacity: [0, 1] }}
+                whileHover={{ opacity: 1}}
                 transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                 className="app__work-hover app__flex"
               >
@@ -102,6 +104,9 @@ const Work = () => {
               </div>
             </div>
           </div>
+
+          
+
         ))}
       </motion.div>
     </>

@@ -1,10 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import { AppWrap } from '../../wrapper';
+// import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
 import './Header.scss';
-
+import Button from '@mui/material/Button';
+import DescriptionIcon from '@mui/icons-material/Description';
 const scaleVariants = {
   whileInView: {
     scale: [0, 1],
@@ -35,6 +36,11 @@ const Header = () => (
         <div className="tag-cmp app__flex">
           <p className="p-text">Student MSCS(AI)</p>
           <p className="p-text">Viterbi Colleg of Eng, USC</p>
+          <Button  className="smallicon" variant="contained"  startIcon= {<DescriptionIcon/>} >
+            <a href={images.resume} download="Aditya Kishore Resume.pdf">
+                    Resume
+            </a>
+          </Button>
         </div>
       </div>
     </motion.div>
@@ -68,4 +74,4 @@ const Header = () => (
   </div>
 );
 
-export default AppWrap(Header, 'home');
+export default Header;
