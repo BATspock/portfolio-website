@@ -200,7 +200,7 @@ const About = () => {
       <h2 className="head-text">My Timeline</h2>
       <div className="app__skills-container"> 
       {/* style={{ width: '500px', height: '950px' }}> */}
-        <Chrono items={items} mode="VERTICAL" hideControls='true' />
+        <Chrono items={items} mode="VERTICAL" hideControls='true' mediaHeight={100} />
       </div>
 
     </>
