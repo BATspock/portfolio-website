@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 // import { motion } from 'framer-motion';
 import { Chrono } from "react-chrono";
 import { AppWrap, MotionWrap } from '../../wrapper';
-
+import { images } from '../../constants';
 // import ReactTooltip from 'react-tooltip';
 import './About.scss';
 // import { urlFor, client } from '../../client';
@@ -21,7 +21,8 @@ const About = () => {
   media:{
     name: 'vision empower logo',
     source:{
-      url: 'https://images.yourstory.com/cs/images/companies/VisionEmpower-1652686388499.jpg?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff'
+      // url: 'https://images.yourstory.com/cs/images/companies/VisionEmpower-1652686388499.jpg?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff'
+      url: images.ve
     },
     type: 'IMAGE',
   },
