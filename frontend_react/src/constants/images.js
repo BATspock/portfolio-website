@@ -38,6 +38,11 @@ import spotify from '../assets/spotify.png';
 // import resumeML from '../assets/data/Aditya Kishore Resume ML USC.pdf';
 // import resumeSDE from '../assets/data/Aditya Kishore Resume SDE USC.pdf';
 import resume from '../assets/data/Aditya Kishore Resume.pdf';
+import ve from '../assets/visionempower.png';
+import ug from '../assest/ugam logo.png';
+import cisco from '../assets/ciscologo.png';
+import pitney from '../assets/pitneyboweslogo.png';
+import iiit from '../assest/iiitblogo.png';
 export default {
   email,
   mobile,
@@ -75,5 +80,10 @@ export default {
   spotify,
   // resumeML,
   // resumeSDE,
-  resume
+  resume,
+  ve,
+  ug,
+  cisco,
+  pitney,
+  iiit
 };
