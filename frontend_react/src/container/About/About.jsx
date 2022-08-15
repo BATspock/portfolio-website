@@ -39,7 +39,8 @@ const About = () => {
   url: 'https://www.cisco.com/c/en_in/index.html', 
   media: {
     source: {
-      url: 'http://logo-logos.com/2016/10/Cisco_logo.png'
+      // url: 'http://logo-logos.com/2016/10/Cisco_logo.png'
+      url: images.cisco
     },
     type: 'IMAGE',
   },
@@ -58,7 +59,8 @@ const About = () => {
   media: {
     source: {
       // url: "https://pearlharborwarbirds.com/wp-content/uploads/2016/09/Awesome-Color-Photos-of-the-Attack-on-Pearl-Harbor-1.jpg",
-      url: 'http://logo-logos.com/2016/10/Cisco_logo.png',
+      // url: 'http://logo-logos.com/2016/10/Cisco_logo.png',
+      url: images.cisco
     },
     type: 'IMAGE',
     // name: 'Pearl Harbor',
@@ -80,7 +82,8 @@ const About = () => {
     type: 'IMAGE',
     source: {
       url:
-        'https://v.fastcdn.co/u/f8c127f9/56461827-0-1.png',
+          images.iiit
+        // 'https://v.fastcdn.co/u/f8c127f9/56461827-0-1.png',
     },
   },
   // cardSubtitle: `Lieutenant General Arthur Percival and staff on their way to the Singapore Ford factory to negotiate the island’s surrender with General Yamashita`,
@@ -98,7 +101,8 @@ const About = () => {
     type:'IMAGE', 
     source:{
       // url: 'https://financialit.net/sites/default/files/a4_ugam_merkle_logo-01.jpg',
-      url: 'https://th.bing.com/th/id/R.366be3216fca32c7b9b5711ab21a9c33?rik=Qyk99ZhGRy4yaw&riu=http%3a%2f%2fphotos.prnewswire.com%2fprnfull%2f20140428%2f81412&ehk=UmGhnTA0fTagwb0WJFlKu4AiLw9viN8vHVSXbQLn9GI%3d&risl=&pid=ImgRaw&r=0',
+      url: images.ug
+      // 'https://th.bing.com/th/id/R.366be3216fca32c7b9b5711ab21a9c33?rik=Qyk99ZhGRy4yaw&riu=http%3a%2f%2fphotos.prnewswire.com%2fprnfull%2f20140428%2f81412&ehk=UmGhnTA0fTagwb0WJFlKu4AiLw9viN8vHVSXbQLn9GI%3d&risl=&pid=ImgRaw&r=0',
     },
   },
   // cardSubtitle: `The American aircraft carrier USS Yorktown under Japanese attack during the battle of Midway`,
@@ -113,7 +117,8 @@ const About = () => {
     type: 'IMAGE',
     source: {
       url:
-        'https://www.pitneybowes.com/content/dam/pitneybowes/us/en/100/pitney-bowes-100-logo/pb_100_year_wordmark_horizontal_lockup_color.png',
+          images.pitney
+        // 'https://www.pitneybowes.com/content/dam/pitneybowes/us/en/100/pitney-bowes-100-logo/pb_100_year_wordmark_horizontal_lockup_color.png',
         // 'https://www.hopinto.co.uk/media/1277/logo.jpg',
     },
   },
