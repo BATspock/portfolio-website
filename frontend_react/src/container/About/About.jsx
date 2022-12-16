@@ -153,7 +153,7 @@ const About = () => {
         <Card>       
           <div className="imageincard">
 
-          <Card.Img variant="top" src="https://16mhpx3atvadrnpip2kwi9or-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/Main-USC-Viterbi-Logo-480x160-1.png" />
+          <Card.Img variant="top" src="https://viterbischool.usc.edu/wp-content/uploads/2021/04/Main-USC-Viterbi-Logo-480x160-1.png" />
           </div>
             <Card.Body>
               <Card.Text>
