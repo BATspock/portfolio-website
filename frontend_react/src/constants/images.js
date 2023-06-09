@@ -43,6 +43,7 @@ import ug from '../assets/ugam logo.png';
 import cisco from '../assets/ciscologo.png';
 import pitney from '../assets/pitneyboweslogo.png';
 import iiit from '../assets/iiitblogo.png';
+import USCMarshalllogo from '../assets/USCMarshalllogo.png';
 export default {
   email,
   mobile,
@@ -85,5 +86,6 @@ export default {
   ug,
   cisco,
   pitney,
-  iiit
+  iiit,
+  USCMarshalllogo,
 };
