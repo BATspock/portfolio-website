@@ -15,7 +15,77 @@ const About = () => {
 
   const items = [
     {
-      title: 'Mar 2022 - May 2022',
+      title: 'MAY 2023 - PRESENT',
+      cardTitle: 'Software Development Engineer Intern',
+      url: 'https://www.amazon.jobs/en/teams/PXT-Solutions',
+      cardSubtitle: 'Amazon, Seattle, Washington, USA',
+      media: {
+        type: 'IMAGE',
+        source: {
+          url:
+            images.amazon
+          // 'https://v.fastcdn.co/u/f8c127f9/56461827-0-1.png',
+        },
+      },
+      // cardSubtitle: `Lieutenant General Arthur Percival and staff on their way to the Singapore Ford factory to negotiate the island’s surrender with General Yamashita`,
+      cardDetailedText: `▪ Design data pipeline on native AWS (NAWS) to automate the extraction and modeling of sprint execution data.
+      ▪ Pipeline creation using AWS services such as Lambda, Redshift, CloudWatch, etc., for data analysis and data visualization`,
+    },
+    {
+      title: 'JAN 2023 - PRESENT',
+      cardTitle: 'Graduate Research Assistant',
+      url: 'https://digitallibrary.usc.edu/',
+      cardSubtitle: 'USC Libraries, Los Angeles, California, USA',
+      media: {
+        type: 'IMAGE',
+        source: {
+          url:
+            images.USCLibraries
+          // 'https://v.fastcdn.co/u/f8c127f9/56461827-0-1.png',
+        },
+      },
+      // cardSubtitle: `Lieutenant General Arthur Percival and staff on their way to the Singapore Ford factory to negotiate the island’s surrender with General Yamashita`,
+      cardDetailedText: `▪ Research and experiment with the latest machine learning and artificial intelligence tools to automate processes for USC Libraries and evaluate for biases in the results of Large Language Models \n
+      ▪ Automated srt creation for video files on AWS cloud using OpenAI whisper and pyannote audio \n
+      ▪ Created dataset for underrepresented groups and designed a ChatGPT based chatbot on the dataset using lama-indexing and langchain\n
+      ▪ Helped to perform a contrastive study on the performance of publicly available Large Language Models (LLMs) with custom-designed chatbots to understand how biases seep into LLMs`,
+    },
+    {
+      title: 'SEP 2022 - PRESENT',
+      cardTitle: 'Machine Learning Student Worker',
+      url: 'https://digitallibrary.usc.edu/',
+      cardSubtitle: 'USC Libraries, Los Angeles, California, USA',
+      media: {
+        type: 'IMAGE',
+        source: {
+          url:
+            images.USCLibraries
+          // 'https://v.fastcdn.co/u/f8c127f9/56461827-0-1.png',
+        },
+      },
+      // cardSubtitle: `Lieutenant General Arthur Percival and staff on their way to the Singapore Ford factory to negotiate the island’s surrender with General Yamashita`,
+      cardDetailedText: `▪ Design and develop systems that automate manual tasks with the help of machine learning tools\n
+      ▪ Developed computer vision based end to end pipeline to identify and obfuscate sensitive data from video files, cutting labor hours by more than 50%  \n
+      ▪ Leveraged OpenAI Whisper Tool and created software pipeline to transcribe videos and generate corresponding srt files using speaker diarization`,
+    },
+    {
+      title: 'SEP 2022 - DEC 2022',
+      cardTitle: 'Grader for BUAD 311 (Operations Management)',
+      url: 'https://classes.usc.edu/term-20221/course/dso-562/',
+      cardSubtitle: 'USC Marshall School of Business, Los Angeles, California, USA',
+      media: {
+        type: 'IMAGE',
+        source: {
+          url:
+            images.USCMarshalllogo
+          // 'https://v.fastcdn.co/u/f8c127f9/56461827-0-1.png',
+        },
+      },
+      // cardSubtitle: `Lieutenant General Arthur Percival and staff on their way to the Singapore Ford factory to negotiate the island’s surrender with General Yamashita`,
+      cardDetailedText: `▪ Worked as a grader for BUAD 311 (Operations Management) under Prof. Adel Javanmard, Associate Professor, Data Sciences and Operations, and Prof. Andrew Daw, Assistant Professor of Data Sciences and Operations`,
+    },
+    {
+      title: 'MAR 2022 - MAY 2022',
       cardTitle: 'Grader for DSO 562 (Fraud Analytics)',
       url: 'https://classes.usc.edu/term-20221/course/dso-562/',
       cardSubtitle: 'USC Marshall School of Business, Los Angeles, California, USA',
@@ -44,8 +114,8 @@ const About = () => {
       },
       cardSubtitle: `Vision Empower`,
       cardDetailedText: `
-    ▪ Migrated organization’s MOOC (Massive Open Online Courses) backend server to AWS EC2 (Ubuntu)
-    ▪ Automated content upload process to improve scalability using python and open edX. This helped the organization to expand to 10 regional schools for the visually impaired and receive donations in excess of 85,000 USD from Microsoft
+    ▪ Migrated organization’s MOOC (Massive Open Online Courses) backend server to AWS EC2 (Ubuntu)\n
+    ▪ Automated content upload process to improve scalability using python and open edX. This helped the organization to expand to 10 regional schools for the visually impaired and receive donations in excess of 85,000 USD from Microsoft\n
     ▪ Co-led development of a proof of concept Amazon Alexa skill. Backend APIs built using NodeJS, hosted skill as AWS Lambda function
   `,
     },
@@ -62,9 +132,9 @@ const About = () => {
       },
       cardSubtitle: `Cisco Systems, Inc.`,
       cardDetailedText: `
-  ▪ Developed dashboards to display live telemetry data from multiple routers leveraging gRPC, influxDB, Grafana, and dockers
-  ▪ Co-led development of a Natural Language Processing tool to reduce time taken for manual bug scrubbing process
-  ▪ Created a fast and scalable algorithm to resolve non-transitive nature of cosine similarity
+  ▪ Developed dashboards to display live telemetry data from multiple routers leveraging gRPC, influxDB, Grafana, and dockers\n
+  ▪ Co-led development of a Natural Language Processing tool to reduce time taken for manual bug scrubbing process\n
+  ▪ Created a fast and scalable algorithm to resolve non-transitive nature of cosine similarity\n
   ▪ Developed the code in python and deployed using dockers on global Cisco internal test servers. Tool resolved more than 70% of bugs and decreased bug processing time by 80%`,
     },
     {
@@ -82,7 +152,7 @@ const About = () => {
         // name: 'Pearl Harbor',
       },
       cardDetailedText: `
-  ▪ Reproduced and tested enterprise network solutions for Goldman Sachs. Performed Operating System upgrades and automated testing using ROBOT framework to identify bugs and test new features for network deployments. Team's efforts led to subscription renewals worth more than 100,000 USD and contributed close to 5% of entire team’s revenue 
+  ▪ Reproduced and tested enterprise network solutions for Goldman Sachs. Performed Operating System upgrades and automated testing using ROBOT framework to identify bugs and test new features for network deployments. Team's efforts led to subscription renewals worth more than 100,000 USD and contributed close to 5% of entire team’s revenue\n 
      
   
   ▪ Created custom text corpus for cisco bug scrubbing process, used various vectorization techniques for tokenization and data preparation
@@ -103,9 +173,9 @@ const About = () => {
         },
       },
       // cardSubtitle: `Lieutenant General Arthur Percival and staff on their way to the Singapore Ford factory to negotiate the island’s surrender with General Yamashita`,
-      cardDetailedText: `▪ Developed an unsupervised texture-based image segmentation algorithm called TextonsSeg. 
-  ▪ Open-sourced and deployed the algorithm on the global python repository (PyPi). 
-  ▪ Worked to convert 2D diagrams to 3D tactile models
+      cardDetailedText: `▪ Developed an unsupervised texture-based image segmentation algorithm called TextonsSeg. \n
+  ▪ Open-sourced and deployed the algorithm on the global python repository (PyPi). \n
+  ▪ Worked to convert 2D diagrams to 3D tactile models\n
   ▪ Published a paper based on the texture based image segmentation algorithm devised during the research work in the International Journal of Engineering and Future Technology`,
     },
     {
@@ -139,7 +209,7 @@ const About = () => {
         },
       },
       cardDetailedText: `
-  ▪ Worked with Recurrent Neural Networks (RNNs) to check their performance on Named Entity Recognition (NER) problem
+  ▪ Worked with Recurrent Neural Networks (RNNs) to check their performance on Named Entity Recognition (NER) problem\n
   
   ▪ Worked on fine tuning of hyper parameters of RNN and LSTM models`,
     },

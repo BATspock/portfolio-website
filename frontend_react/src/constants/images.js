@@ -44,6 +44,7 @@ import cisco from '../assets/ciscologo.png';
 import pitney from '../assets/pitneyboweslogo.png';
 import iiit from '../assets/iiitblogo.png';
 import USCMarshalllogo from '../assets/USCMarshalllogo.png';
+import USCLibraries from '../assets/USCLibraries.png';
 export default {
   email,
   mobile,
@@ -88,4 +89,5 @@ export default {
   pitney,
   iiit,
   USCMarshalllogo,
+  USCLibraries
 };
